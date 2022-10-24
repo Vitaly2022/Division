@@ -11,8 +11,7 @@ public class Divis {
         this.delitel = delitel;
         this.lNum = lNum;
     }
-      //DELIM 3000
-      //DELITEL 500
+
 
     public int count() { //находим количество целых вхождений
         int iC = 1;
@@ -29,7 +28,7 @@ public class Divis {
         while (delim < delitel) {
             r++;
             delim = delim * 10;
-            if (r>=2) rez = rez + "0";//тута косяк - лишний ноль
+            if (r>=2) rez = rez + "0";
         }
         return delim;
     }
